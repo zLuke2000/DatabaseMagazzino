@@ -1,0 +1,40 @@
+#####################################################################################
+#                                                                                   #
+# ATTENZIONE                                                                        #
+#                                                                                   #
+# modificare solo i valori presenti dopo '->' nel formato indicato tra parentesi () #
+#                                                                                   #
+# il file verra' ripristinato nel caso di parametri non corretti                    #
+#                                                                                   #
+#####################################################################################
+#
+# DEFAULT (dimensione) -> 50
+	dimensione_font_testo -> 50
+#
+# DEFAULT (larghezza,altezza) -> 50,50
+	dimensione_icona -> 50,50
+#
+# ** INTERFACCIA AGGIUNGI ARTICOLO **
+# DEFAULT (true/false) -> true
+	AP_prodotto_fullscreen -> true
+# DEFAULT (true/false) -> true
+	AP_nascondi_barra_titolo -> true
+#
+# ** INTERFACCIA MODIFICA ARTICOLO **
+# DEFAULT (true/false) -> true
+	MP_prodotto_fullscreen -> true
+# DEFAULT (true/false) -> true
+	MP_nascondi_barra_titolo -> true
+#
+# ** INTERFACCIA ELIMINA ARTICOLO **
+# DEFAULT (true/false) -> true
+	EA_prodotto_fullscreen -> true
+# DEFAULT (true/false) -> true
+	EA_nascondi_barra_titolo -> true
+#
+# ** INTERFACCIA VISUALIZZA TABELLA ARTICOLO **
+# DEFAULT (true/false) -> true
+	VA_prodotto_fullscreen -> true
+# DEFAULT (true/false) -> true
+	VA_nascondi_barra_titolo -> true
+#
