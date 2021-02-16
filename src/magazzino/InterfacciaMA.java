@@ -302,7 +302,7 @@ class InterfacciaMA extends JFrame{
 				v_Parametro[i].setText(v_Parametro[i].getText().toLowerCase());
 				riepilogo += l_Parametri[i].getText() + " --> " + v_Parametro[i].getText() + "\n";
 				break;
-			case "Quanti�":
+			case "Quantià":
 				if(v_Parametro[i].getText().equals("")) {
 					errore += l_Parametri[i].getText() + " non pu� essere vuota" + "\n";
 				}

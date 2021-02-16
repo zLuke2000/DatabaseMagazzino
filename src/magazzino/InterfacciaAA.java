@@ -252,9 +252,9 @@ class InterfacciaAA extends JFrame{
 				v_Parametro[i].setText(v_Parametro[i].getText().toLowerCase());
 				riepilogo += l_Parametri[i].getText() + " --> " + v_Parametro[i].getText() + "\n";
 				break;
-			case "Quantià":
+			case "QuantiÃ ":
 				if(v_Parametro[i].getText().equals("")) {
-					errore += l_Parametri[i].getText() + " non può essere vuota" + "\n";
+					errore += l_Parametri[i].getText() + " non puï¿½ essere vuota" + "\n";
 				}
 				else {
 					try{
@@ -305,7 +305,7 @@ class InterfacciaAA extends JFrame{
 	static void consiglioCostruttoreBH(ActionEvent event) {
 		Object[] costruttoriTrovati = Database.getCostruttori();
 		if (costruttoriTrovati != null) {
-			costruttoreSelezionato = (String)JOptionPane.showInputDialog(container, "Selezionare un costruttore già presente", "Selezione costruttore", JOptionPane.PLAIN_MESSAGE, null, costruttoriTrovati, null);
+			costruttoreSelezionato = (String)JOptionPane.showInputDialog(container, "Selezionare un costruttore giï¿½ presente", "Selezione costruttore", JOptionPane.PLAIN_MESSAGE, null, costruttoriTrovati, null);
 			if ((costruttoreSelezionato != null) && (costruttoreSelezionato.length() > 0)) {
 				for(int i=0; i<ControlloConfig.NOME_PARAMETRO.length; i++) {
 					if(ControlloConfig.NOME_PARAMETRO[i] == "Costruttore") {
@@ -322,7 +322,7 @@ class InterfacciaAA extends JFrame{
 	static void consiglioFornitoreBH(ActionEvent event) {
 		Object[] fornitoriTrovati = Database.getFornitori();
 		if (fornitoriTrovati != null) {
-			fornitoreSelezionato = (String)JOptionPane.showInputDialog(container, "Selezionare un fornitore già presente", "Selezione fornitore", JOptionPane.PLAIN_MESSAGE, null, fornitoriTrovati, null);
+			fornitoreSelezionato = (String)JOptionPane.showInputDialog(container, "Selezionare un fornitore giï¿½ presente", "Selezione fornitore", JOptionPane.PLAIN_MESSAGE, null, fornitoriTrovati, null);
 			if ((fornitoreSelezionato != null) && (fornitoreSelezionato.length() > 0)) {
 				for(int i=0; i<ControlloConfig.NOME_PARAMETRO.length; i++) {
 					if(ControlloConfig.NOME_PARAMETRO[i] == "Fornitore") {
